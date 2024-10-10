@@ -1,0 +1,37 @@
+CURSO GIT SETEC
+
+- git init → Inicializa um repositório local no Git.
+- git add <arquivo> → Prepara o(s) arquivo(s) para serem commitados.
+- git commit -m "mensagem" → Realiza o commit dos arquivos preparados com uma mensagem.
+- git status → Exibe o estado dos arquivos no repositório.
+- git rm --cached <arquivo> → Remove o arquivo do repositório sem deletá-lo localmente.
+- git add . → Prepara todos os arquivos modificados para o commit.
+
+CONFIGURAÇÕES DO GIT
+
+- git config --global user.name "Rafaela Shimoda"
+- git config --global user.email "rafayumishi@gmail.com"
+- git log → Verifica se a configuração foi aplicada corretamente (exibe os commits com o nome e email configurados).
+
+CRIANDO UM NOVO ARQUIVO .gitignore
+
+- .gitignore → Arquivo usado para ignorar arquivos e diretórios, ou seja, eles não serão rastreados pelo Git.
+
+BRANCHES (Ramificação)
+
+- git branch → Lista todos os branches.
+- git branch development → Cria o branch development.
+- git checkout development → Muda para o branch development.
+- git checkout -b <nomeBranch> → Cria e muda para um novo branch.
+
+LOG SIMPLIFICADO
+
+git log --oneline → Exibe o histórico de commits de forma mais concisa.
+
+ADICIONAR UM REPOSITÓRIO REMOTO NO GitHub
+
+- git remote add origin https://github.com/RafaShi/Minicurso_git_SETEC.git → Adiciona o repositório remoto.
+- git branch -M main → Renomeia o branch atual para main.
+- git push -u origin main → Envia o branch main para o repositório remoto e define origin/main como o branch padrão para o push.
+- git remote → Lista todos os repositórios remotos configurados.
+- git pull → Baixa as últimas atualizações do repositório remoto.
